@@ -1,0 +1,74 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+    background:url(searchbg.jpeg) no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+.box1{
+    background: black;
+    border: black double;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+    display: inline-block;
+    border-radius: 20px;
+}
+.box1:hover{
+    background-color: green;
+    transition: .2s;
+}
+button{
+    float: right;
+    font-size: 15px;
+    background-color: black;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    background-color: green;
+    transition: .2s;
+}
+a{
+    color: white;
+}
+p{
+    color: #ddd;
+    font-size: 20px;
+}
+.form-group{
+    margin-bottom:10px
+}
+.form-control{
+    display:inline-block;font-size:13px
+}
+input[type=search]{
+    -webkit-appearance:textfield;box-sizing:border-box
+}
+.form-control{
+    width:100%;
+    min-height:25px;
+    padding:5px 10px;
+    line-height:1.6;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-radius:4px;outline:0
+}   
+.form-control:focus{
+    border-color:#6db3fd;
+    box-shadow:3px 3px 0 #6db3fd,-3px -3px 0 #6db3fd,-3px 3px 0 #6db3fd,3px -3px 0 #6db3fd
+}
+.mainWrapper{
+    margin: 25px;
+}
